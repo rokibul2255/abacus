@@ -1,0 +1,75 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.width{
+    max-width: 1128px;
+}
+
+.bannerImage{
+    height: 500px;
+    filter: brightness(50%);
+}
+
+.carousel-caption h5{
+    width: 550px;
+}
+.carousel-caption p{
+    width: 460px;
+}
+
+.py-7{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.myCard h2,.myCard h3, .myCard a{
+    font-family: "Roboto", serif;
+    font-weight: 700;
+}
+.myCard h2,.myCard h3{
+    color: #231D4F;
+}
+.myCard p, .myCard li{
+    color: #848199;
+    font-size: 15px;
+}
+.myCard i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5243C2;
+    background-color: #edecf9;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+.myCard li{
+    display: flex;
+    align-items: center;
+}
+
+.myCard a{
+    color: #3F87F5;
+    background-color: #fef5fa;
+}
+.plus{
+    background-color: #3F87F5;
+    -webkit-box-shadow: 0px 21px 45px -7px rgba(63,135,245,0.61);
+    -moz-box-shadow: 0px 21px 45px -7px rgba(63,135,245,0.61);
+    box-shadow: 0px 21px 45px -7px rgba(63,135,245,0.61);
+}
+.plus li{
+    background: transparent ;
+}
+.plus h2, .plus h3, .plus p, .plus li{
+    color: white !important;
+}
+
+.plus a{
+    background-color: white;
+}
+
+.plus a:hover{
+    background-color: #231D4F;
+}
