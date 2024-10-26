@@ -88,7 +88,7 @@
 
 <section class="moment">
     <div class="container py-7 width">
-        <div class="row align-items-center gap-4">
+        <div class="row align-items-center gap-4 position-relative">
             <div class="col p-0">
               <img src="Image/moment.jpg" alt="Image of a moment">
             </div>
@@ -97,6 +97,12 @@
               <p class="fs-6 fw-semibold text-secondary">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
               <button type="button" class="btn btn-primary">Explore our album <i class="bi bi-arrow-right"></i></button>
             </div>
+            <div class="alert position-absolute border-start border-top-0 border-bottom-0 border-end-0 rounded-0 border-5 border-primary ps-2 pe-3 shadow-lg m-0 py-2 bg-white top-50 end-0" style="width: 270px;" role="alert">
+              <div class="position-relative">
+                  <i class="bi bi-gift me-2 text-primary fs-5"></i>20% off on next booking
+              </div>
+              <button type="button" class="btn-close position-absolute top-0 end-0" style="background-size: 10px;" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
           </div>
     </div>
 </section>
@@ -232,8 +238,85 @@
 
 <!-- Frequently Asked -->
 
-<section class="width mx-auto my-0">
-  <h2 class="text-center fw-semibold fs-1 mb-5 pb-5">Frequently Asked Questions</h2>
+<section class="width mx-auto my-5">
+  <h2 class="text-center fw-semibold fs-1 mb-5 pb-5 pt-5">Frequently Asked Questions</h2>
+
+  <div class="container text-center ">
+    <div class="row align-items-center">
+      <div class="col">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What’s the difference between event design and event planning? 
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How early do we need to start planning an event
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What is your refund and cancellation policy?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                How do you keep budgets on track?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <img src="Image/party.jpg" class="img-fluid" alt="...">
+      </div>
+    </div>
+  </div>
+  </section>
+
+<!-- footer section -->
+<footer class="bg-black py-5">
+<div class="container text-center py-5">
+  <div class="row align-items-center">
+    <div class="col text-white">
+      © 2024 bike. All rights reserved
+    </div>
+    <div class="col">
+      <h5 class="fs-5 text-white">Get the App</h5>
+      <img src="Image/Asset 2@300x.png" class="img-fluid" style="width: 150px;" alt="...">
+    </div>
+  </div>
+</div>
+</footer>
+
 
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
